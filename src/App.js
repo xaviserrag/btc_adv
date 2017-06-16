@@ -7,11 +7,18 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          {/*<img src={logo} className="App-logo" alt="logo" />*/}
+          <h2>Do you want to get into Bitcoin?</h2>
+          <h4>Here is how :)</h4>
+
+          <div>To buy bitcoins you have to create an account in an exchange.</div>
+          <div>You can sign up in coin base, one of the easiest platforms to buy bitcoins or ethereum.</div>
+          <div>Sign to coinbase using the following link and earn 10$ for free!<a href="https://www.coinbase.com/join/594346e99ef1db0cf3c0e45e">HERE!</a></div>
+
+          <a href="https://www.coinbase.com/join/594346e99ef1db0cf3c0e45e">Get 10$ for free!</a>
         </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+
         </p>
       </div>
     );
