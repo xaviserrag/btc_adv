@@ -21,7 +21,7 @@ class App extends Component {
               <img className="img-responsive" src="/logo.png" width="1569" height="212"/>
             </div>
             <div className="col-md-offset-2 col-md-5 description">
-              {`1BTC = ${this.state && this.state.usd || ''}`}
+              {`1BTC = ${this.state && this.state.usd || ''}$`}
             </div>
           </div>
           <div className="header row">
@@ -68,7 +68,10 @@ class App extends Component {
             </div>
           </div>
           <div className="footer row">
-            <div className="col-md-offset-10 col-md-1">
+            <div className="col-md-3 powered">
+              <a href="">Powered by CoinDesk</a>
+            </div>
+            <div className="col-md-offset-7 col-md-1">
              <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fgetyourfirstbitcoin.com&layout=button&size=small&mobile_iframe=true&appId=1754926664753974&width=59&height=20" width="59" height="20" style={{border:'none', overflow:'hidden'}} scrolling="no" frameborder="0" allowTransparency="true"></iframe>
             </div>
             <div className="col-md-1">
