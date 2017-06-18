@@ -7,21 +7,21 @@
 .App .nav-bar {
   height: 80px;
   margin-bottom: 50px;
-  border-bottom: 1px solid #8e8e8e;
+  border-bottom: 1px solid #d2d2d2;
   background-color: #fcfcfc;
   line-height: 80px;
 }
 
 .App .nav-bar img {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
-.App .nav-bar description {
+.App .nav-bar .description {
   text-align: right;
 }
 
 .App .header {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .App .header-title {
@@ -42,7 +42,7 @@
 }
 
 .App .info {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .App .description {
@@ -61,13 +61,14 @@
 }
 
 .App .info .description  {
-  line-height: 30px;
+  line-height: 32px;
+  font-size: 14px;
   padding: 10px;
 }
 
 .App .footer  {
   height: 80px;
-  border-top: 1px solid #8e8e8e;
+  border-top: 1px solid #d2d2d2;
   line-height: 60px;
   color: #d2d2d2;
 }

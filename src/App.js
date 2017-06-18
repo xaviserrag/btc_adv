@@ -17,10 +17,10 @@ class App extends Component {
     return (
       <div className="App container">
           <div className="nav-bar row">
-            <div className="col-md-5">
+            <div className="col-md-4">
               <img className="img-responsive" src="/logo.png" width="1569" height="212"/>
             </div>
-            <div className="col-md-offset-2 col-md-5 description">
+            <div className="col-md-offset-3 col-md-5 description">
               {`1BTC = ${this.state && this.state.usd || ''}$`}
             </div>
           </div>
@@ -30,7 +30,7 @@ class App extends Component {
                 <span>The easiest way to get started with Bitcoin</span>
               </div>
               <div className="row">
-                <a className="btn btn-start" href="https://www.coinbase.com/join/594346e99ef1db0cf3c0e45e">Start Now</a>
+                <a className="btn btn-start" href="https://www.coinbase.com/join/59407ea86d5c5f00983508ba">Start Now</a>
               </div>
               <div className="row title">
                 <span>Sign up now and get $10 FREE</span>
@@ -69,12 +69,12 @@ class App extends Component {
           </div>
           <div className="footer row">
             <div className="col-md-3 powered">
-              <a href="">Powered by CoinDesk</a>
+              <a href="http://www.coindesk.com/">Powered by CoinDesk</a>
             </div>
-            <div className="col-md-offset-7 col-md-1">
+            <div className="col-xs-6 col-md-offset-7 col-md-1">
              <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fgetyourfirstbitcoin.com&layout=button&size=small&mobile_iframe=true&appId=1754926664753974&width=59&height=20" width="59" height="20" style={{border:'none', overflow:'hidden'}} scrolling="no" frameborder="0" allowTransparency="true"></iframe>
             </div>
-            <div className="col-md-1">
+            <div className="col-xs-6 col-md-1">
               <a className="twitter-share-button"
                 href="https://twitter.com/intent/tweet?text=Get%20your%20first%20Bitcoin!%20http://getyourfirstbitcoin.com"
                 data-size="small"
